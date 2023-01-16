@@ -12,6 +12,7 @@ export default class Notification {
     this.container.classList.add("notification-container");
   }
 
+
   render() {
     const template = `
 <div class="notification type-pepperoni">
